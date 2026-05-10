@@ -14,7 +14,18 @@ dependencies = [
     "ipykernel>=6.0.0"
 ]
 [tool.setuptools]
-py-modules = []
+py-modules = [
+    "adult_census_analysis",
+    "auto_mpg_regression",
+    "california_housing_pipeline",
+    "classification_analysis",
+    "clustering_analysis",
+    "pca_mnist_analysis",
+    "svm_comparison_analysis",
+    "titanic_analysis",
+    "titanic_rf_analysis",
+    "visualization_analysis"
+]
 
 [build-system]
 requires = ["setuptools>=61.0"]
