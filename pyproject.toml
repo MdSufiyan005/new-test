@@ -13,6 +13,8 @@ dependencies = [
     "nbformat>=5.9.0",
     "ipykernel>=6.0.0"
 ]
+[tool.setuptools]
+py-modules = []
 
 [build-system]
 requires = ["setuptools>=61.0"]
